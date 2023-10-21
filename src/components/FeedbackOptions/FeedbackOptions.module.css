@@ -1,0 +1,31 @@
+.container {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: lightgreen;
+  }
+  
+  .button.good:hover {
+    background-color: rgb(68, 255, 68);
+  }
+  
+  .button.bad:hover {
+    background-color: rgb(230, 114, 114);
+  }
+  
+  .button.neutral:hover {
+    background-color: rgb(235, 235, 13);
+  }
